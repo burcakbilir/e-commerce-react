@@ -1,1 +1,1 @@
-![](homePage.png)
+![](home-page.png)

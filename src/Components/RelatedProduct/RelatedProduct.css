@@ -1,0 +1,8 @@
+.related-product-container {
+  margin: 40px 0;
+  padding: 0 60px;
+}
+.related-product-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}

@@ -1,0 +1,46 @@
+.ad-container {
+  margin-top: 40px;
+  padding: 0 60px;
+}
+
+.top-ad-container {
+  display: flex;
+  gap: 10px;
+}
+.top-left-ad {
+  flex: 2;
+  position: relative;
+}
+.ad-info {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  color: #fff;
+}
+.ad-info button {
+  padding: 10px 24px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.ad-info button:hover {
+  background-color: #f1f1f1;
+}
+
+.top-right-ad {
+  flex: 1;
+  position: relative;
+}
+
+.ad-container img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .top-ad-container {
+    flex-direction: column;
+  }
+}

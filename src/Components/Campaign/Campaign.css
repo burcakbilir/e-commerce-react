@@ -1,0 +1,28 @@
+.campaing-container {
+  margin: 40px 0;
+  padding: 0 60px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://cityfurnish.com/blog/wp-content/uploads/2023/04/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 15px;
+}
+.campaing {
+  text-align: center;
+}
+.campaign-info {
+  color: #fff;
+}
+.campaign-info h2 {
+  font-size: 40px;
+}
+.campaign-info button {
+  padding: 10px 24px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.campaign-info button:hover {
+  background-color: #f1f1f1;
+}

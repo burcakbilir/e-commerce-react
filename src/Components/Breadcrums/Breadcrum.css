@@ -1,0 +1,6 @@
+.breadcrum-container {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  margin: 20px 60px;
+}

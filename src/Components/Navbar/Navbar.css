@@ -1,0 +1,101 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+.navbar-logo {
+  font-size: 18px;
+  font-weight: 600;
+}
+.navbar-logo span {
+  color: #ffcc00;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 14px;
+}
+
+.navbar-menu li {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-menu hr {
+  border: none;
+  width: 90%;
+  height: 2px;
+  border-radius: 10px;
+  background: #ffcc00;
+}
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+
+.navbar-user button {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  color: #0b3954;
+}
+
+.nav-cart-count {
+  width: 5px;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -6px;
+  top: 4px;
+  background-color: #0b3954;
+  border-radius: 50%;
+  color: #fff;
+  padding: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.navbar-mobile-icon {
+  display: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 428px) {
+  .navbar-container {
+    padding: 20px 30px;
+  }
+  .navbar-mobile-icon {
+    display: block;
+  }
+  .navbar-menu {
+    display: none;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    padding: 60px 30px;
+    width: 150px;
+  }
+  .navbar-menu.open {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+  }
+}
